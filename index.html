@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Section 1</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🇵🇹</text></svg>"
+    />
+    <style>
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      @media (max-width: 768px) {
+        .title {
+          font-size: 1.5em;
+        }
+
+        .subtitle {
+          font-size: 1.2em;
+        }
+        
+      }
+
+      @media (max-width: 480px) {
+        .title {
+          font-size: 1.2em;
+        }
+
+        .subtitle {
+          font-size: 1em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <header>
+            <nav class="menu">
+                <button class="menu-toggle">Menu</button>
+                <ul class="menu-items">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="welcome-and-rules.html">Welcome</a></li>
+                    <li><a href="bars.html">Bars</a></li>
+                    <li><a href="food.html">Restaurants</a></li>
+                    <li><a href="tourism.html">Tourism</a></li>
+                    <li><a href="nossa-vida.html">Our Life</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr class="header-separator">
+        <style>
+            header {
+                padding: 24px 0 16px 0;
+            }
+            .menu {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .menu-toggle {
+                display: none;
+            }
+            .menu-items {
+                display: flex;
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+            .menu-items li {
+                margin-right: 20px;
+            }
+            .menu-items li:last-child {
+                margin-right: 0;
+            }
+            .menu-items a {
+                text-decoration: none;
+                color: #333;
+            }
+            .menu-items a.active {
+                font-weight: bold;
+                color: #000;
+                border-bottom: 2px solid #000;
+            }
+            @media (max-width: 768px) {
+                .menu {
+                    flex-direction: column;
+                }
+                .menu-toggle {
+                    display: block;
+                    width: 100%;
+                    padding: 10px;
+                    background-color: #f0f0f0;
+                    border: none;
+                    text-align: left;
+                    cursor: pointer;
+                }
+                .menu-items {
+                    display: none;
+                    flex-direction: column;
+                    width: 100%;
+                }
+                .menu-items.show {
+                    display: flex;
+                }
+                .menu-items li {
+                    margin-right: 0;
+                    padding: 10px;
+                    border-bottom: 1px solid #e0e0e0;
+                }
+                .menu-items li:last-child {
+                    border-bottom: none;
+                }
+            }
+        </style>
+        <script>
+            document.querySelector('.menu-toggle').addEventListener('click', function() {
+                document.querySelector('.menu-items').classList.toggle('show');
+            });
+        </script>
+      <p class="c59">
+        <img
+            alt=""
+            src="images/image4.png"
+            class="image-small"
+            title=""
+        /></span>
+      </p>
+      <p class="c35 title" id="h.c2q6qj7lxmsb">
+        <span class="c69">TONY &amp; THALI&rsquo;S WEDDING</span>
+      </p>
+      <p class="c42 subtitle" id="h.4ln4q8facorn">
+        <span class="c34">TOURISM</span><span class="c46">&nbsp;</span
+        ><span class="c45">GUIDE</span>
+      </p>
+      <p class="c53 c65">
+        <img src="images/image1.jpg" title="Placeholder image" class="image-large" />
+      </p>
+      <p class="c33">
+        <span class="c23 c39">View from</span><span class="c39 c24">&nbsp;</span
+        ><span class="c39 c24">Castelo de S&atilde;o Jorge, </span
+        ><span class="c39 c23">Lisbon</span>
+      </p>
+    </div>
+  </body>
+</html>
